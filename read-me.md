@@ -93,7 +93,7 @@ run adk:
 adk web . --host 0.0.0.0 --port 8000
 ```
 
-##Sample questions:
+### Sample questions:
 
 Here are **5 sample questions** you can ask your Customer Insights Agent:
 
