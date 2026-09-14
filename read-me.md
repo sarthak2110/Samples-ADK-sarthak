@@ -73,3 +73,41 @@ Use the following sample questions to evaluate the Retrieval-Augmented Generatio
 | Which is the smallest state in India by area? | Goa |
 | What is the national tree of India? | The Banyan Tree |
 | What is the national sport of India? | Field Hockey |
+
+
+
+
+##FOR MCP SERVER
+
+**open 2 terminals**
+
+>on 1st terminal
+start the server:
+```bash
+python my_agent/mcp_customer_server.py
+```
+
+>on 2nd terminal
+run adk:
+```bash
+adk web . --host 0.0.0.0 --port 8000
+```
+
+##Sample questions:
+
+Here are **5 sample questions** you can ask your Customer Insights Agent:
+
+1. **Single Random Customer Profile:**
+   > *"Can you generate a random customer profile with their recent purchase history and subscription details?"*
+
+2. **Lookup by Specific Customer ID:**
+   > *"Show me the profile, lifetime value (LTV), and monthly recurring revenue (MRR) for customer ID `CUST-883492`."*
+
+3. **Tier-Filtered Batch Query:**
+   > *"Can you give me a list of 4 random **Enterprise** tier customers?"*
+
+4. **Batch Overview with Markdown Summary:**
+   > *"Generate 5 random customer profiles and summarize their names, countries, tiers, and recent purchases in a clean Markdown table."*
+
+5. **Financial / MRR Analysis from Mock Data:**
+   > *"Fetch 5 random **Pro** tier customers and tell me who has the highest Monthly Recurring Revenue (MRR) among them."*
