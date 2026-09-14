@@ -77,7 +77,7 @@ Use the following sample questions to evaluate the Retrieval-Augmented Generatio
 
 
 
-##FOR MCP SERVER
+## FOR MCP SERVER
 
 **open 2 terminals**
 
